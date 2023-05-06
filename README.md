@@ -1,2 +1,3 @@
-# OnlineCodedCaching
-Full version of the paper "On the Regret of Online Coded Caching"
+# Online Coded Caching
+
+We consider the widely studied problem of `coded caching under non-uniform requests' where users independently request files according to some underlying popularity distribution in each slot. This work is a first step towards analyzing this framework through the lens of online learning. We consider the case where the underlying request distribution is apriori unknown and propose an online policy as well as study its regret with respect to an oracle which knows the underlying distribution and employs a well-known order-optimal placement and coded delivery strategy. We also bound the switching cost of this strategy and also discuss a lower bound on the regret of any online scheme in a restricted but natural class of policies.
